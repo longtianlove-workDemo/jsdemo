@@ -9,7 +9,7 @@
     <%--alert("我敢保证，你现在用的是演示一");--%>
     <%--</script>--%>
 
-    <script src="/WEB-INF/js/main.js">
+    <script src="/js/main.js">
 
     </script>
 </head>
