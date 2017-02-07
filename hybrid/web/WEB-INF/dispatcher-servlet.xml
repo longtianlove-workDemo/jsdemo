@@ -23,8 +23,10 @@
     </bean>
 
 
-    <!-- 对静态资源文件的访问-->
-    <mvc:resources mapping="/images/**" location="/WEB-INF/view/image/" cache-period="31556926"/>
-    <mvc:resources mapping="/js/**" location="/WEB-INF/view/js/" cache-period="31556926"/>
+    <!--&lt;!&ndash; 对静态资源文件的访问&ndash;&gt;-->
+    <mvc:resources mapping="/image/**" location="/META-INF/image/"/>
+    <mvc:resources mapping="/js/**" location="/META-INF/js/"/>
     <!--<mvc:resources mapping="/css/**" location="/WEB-INF/view/css/" cache-period="31556926"/>-->
+
+    <!--<mvc:resources location="/" mapping="/**"/>-->
 </beans>

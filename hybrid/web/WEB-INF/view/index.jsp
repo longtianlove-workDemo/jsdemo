@@ -9,7 +9,7 @@
     <%--alert("我敢保证，你现在用的是演示一");--%>
     <%--</script>--%>
 
-    <script src="/WEB-INF/view/js/main.js">
+    <script src="/WEB-INF/js/main.js">
 
     </script>
 </head>
@@ -21,8 +21,8 @@
 
 <%--<button type="button" onclick="message()">点击这里</button>--%>
 
-<img src="/WEB-INF/view/image/first.jpg">
-<p  onclick="message()">点击灯泡来点亮或熄灭这盏灯</p>
+<img src="/image/first.jpg">
+<p id="demo" onclick="message()">点击灯泡来点亮或熄灭这盏灯</p>
 
 </body>
 </html>
